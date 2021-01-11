@@ -87,8 +87,8 @@ menu:
         - identifier: tags
           name: Tags
           url: /tags/
-          weight: 10
+          weight: 30
         - identifier: search
           name: Search
-          url: /saerch/
+          url: /search/
           weight: 20
