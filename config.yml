@@ -1,6 +1,6 @@
 baseURL: https://shayanamani.com
 languageCode: en-us
-title: A Personal Platform
+title: Shayan Amani | A Personal Platform
 theme: hugo-PaperMod
 paginate: 5
 
@@ -46,18 +46,19 @@ params:
 
     label:
         text: "Home"
-        icon: /images/apple-touch-icon.png
+        # icon: /apple-touch-icon.png
         iconHeight: 35
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
-        imageUrl: /images/apple-touch-icon.png
-        # imageTitle: my image
+        enabled: true # needs to be explicitly set
+        title: Shayan Amani
+        # subtitle: Just a Subtitle
+        # imageUrl: /SHi-ON_squared_shadow.png
+        imageTitle: Shayan Amani
         buttons:
-            - name: Posts
-              url: posts
+            - name: Archive
+              url: archive
             - name: Tags
               url: tags
 
@@ -67,12 +68,14 @@ params:
         Content: Welcome to my blog
 
     socialIcons:
-        - name: twitter
-          url: "https://twitter.com/"
-        - name: stackoverflow
-          url: "https://stackoverflow.com"
         - name: github
-          url: "https://github.com/"
+          url: "https://github.com/SHi-ON"
+        - name: stackoverflow
+          url: "https://stackoverflow.com/users/3782119/shayan-amani"
+        - name: twitter
+          url: "https://twitter.com/com_shayanamani"
+        - name: linkedin
+          url: "https://www.linkedin.com/in/shayanamani"
 
     analytics:
         google:
@@ -80,9 +83,9 @@ params:
 
 menu:
     main:
-        - identifier: categories
-          name: Categories
-          url: /categories/
+        - identifier: archive
+          name: Blog Archive
+          url: /archive/
           weight: 10
         - identifier: search
           name: Search
