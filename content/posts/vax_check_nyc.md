@@ -11,7 +11,7 @@ You can also get notified via email, if you set your credentials.
 
 
 ## Why?
-This project is basically a response to the slow and tedious process of getting a COVID-19 vaccine appointment in the time being in NYC.
+This project is basically a response to the slow and tedious process of getting a COVID-19 vaccine appointment at the time that I wrote this script in New York City.
 
 
 ## Where?
