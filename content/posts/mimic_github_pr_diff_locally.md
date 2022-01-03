@@ -6,7 +6,7 @@ author: SHi-ON
 ---
 
 ## What?!
-The goal is to mimic the GitHub pull requests' change diff in your local repository:
+The goal is to mimic the GitHub pull requests' file diff in your local repository:
 ![Image](../post_images/mimic_github_pr_diff_locally_1.png)
 
 
