@@ -229,7 +229,7 @@
     * [architecture](https://huggingface.co/models) hyperparameters
 
   | Name | Parameters | Layers | Hidden | Heads |
-              | :--- | :--- | :--- | :--- | :--- |
+                | :--- | :--- | :--- | :--- | :--- |
   | gpt2 | 117Mi(124M) | 12 | 768 | 12 |
   | gpt2-medium | 345Mi(355M) | 24 | 1024 | 16 |
   | gpt2-large | 762Mi(774M) | 36 | 1280 | 20 |
@@ -283,17 +283,20 @@ dropout = 0.5
 * comparison of different clustering algorithms in terms of dataset size:
   ![](res/clustering-algorithms.png)
 * K-means vs Hierarchical vs Density-based CLUSTERING:
-    * K-means : pre-specify the number of clusters K
+    * K-means : pre-specify the number of clusters K. In practice, the **k-means** algorithm is very fast (one of the
+      fastest clustering algorithms available), but it falls in local minima. That’s why it can be useful to restart it
+      several times.
     * Hierarchical: no requirement for a pre-specified choice of K
         * Agglomerative or bottom-up
         * Divisive or top-down
-* Hierarchical Clustering Linkage methods:
-    * the best –most likely– is the Ward algorithm which mimics all and K-means
-      ![](res/clustering-cluster-distance-measures.png)
+    * Hierarchical Clustering Linkage methods:
+        * the best –most likely– is the Ward algorithm which mimics all and K-means
+          ![](res/clustering-cluster-distance-measures.png)
 
 * review [clustering algorithms](https://sites.cs.ucsb.edu/~veronika/MAE_LargeScaleClustering_strnadova.pdf)
 
 ## 🔵 📈 Regression
+
 * Regression assumes that the parameters used are independent from one another.
 
 ## 🔵 🛠 Feature Engineering
@@ -349,6 +352,7 @@ dropout = 0.5
 ![](res/multiclass-to-pairwise.png)
 
 ### Data Modalities
+
 * GPS Coordinate precisions:
 
 ![](res/gps-coordinates-precisions.png)
@@ -371,7 +375,7 @@ dropout = 0.5
 ![](res/neural-network-blocks.png)
 
 * Dimensionality of Neural network weights, biases, Linear functions, and activation functions of each layer
-    * size of input  X  is  (12288,209) (with  m=209  examples)
+    * size of input X is  (12288,209) (with m=209 examples)
 
 ![](res/neural-network-dimensions.png)
 
