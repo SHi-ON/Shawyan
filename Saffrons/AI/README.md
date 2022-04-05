@@ -202,6 +202,10 @@
       substitution.
     * The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) allows only substitution, hence, **it only
       applies to strings of the same length.**
+* **Bag of Words** (Bag of n-grams): **ignores** the relative position information of the words in the document:
+  * tokenization
+  * counting
+  * normalization
 * **Skip-gram** vs **CBOW**  (Continuous Bag of Words) architecture:
     * **Skip-gram** (rare words, slower): works well with small amount of the training data, represents well even rare
       words or phrases.
@@ -229,7 +233,7 @@
     * [architecture](https://huggingface.co/models) hyperparameters
 
   | Name | Parameters | Layers | Hidden | Heads |
-              | :--- | :--- | :--- | :--- | :--- |
+                | :--- | :--- | :--- | :--- | :--- |
   | gpt2 | 117Mi(124M) | 12 | 768 | 12 |
   | gpt2-medium | 345Mi(355M) | 24 | 1024 | 16 |
   | gpt2-large | 762Mi(774M) | 36 | 1280 | 20 |
@@ -294,6 +298,7 @@ dropout = 0.5
 * review [clustering algorithms](https://sites.cs.ucsb.edu/~veronika/MAE_LargeScaleClustering_strnadova.pdf)
 
 ## 🔵 📈 Regression
+
 * Regression assumes that the parameters used are independent from one another.
 
 ## 🔵 🛠 Feature Engineering
@@ -349,6 +354,7 @@ dropout = 0.5
 ![](res/multiclass-to-pairwise.png)
 
 ### Data Modalities
+
 * GPS Coordinate precisions:
 
 ![](res/gps-coordinates-precisions.png)
@@ -371,7 +377,7 @@ dropout = 0.5
 ![](res/neural-network-blocks.png)
 
 * Dimensionality of Neural network weights, biases, Linear functions, and activation functions of each layer
-    * size of input  X  is  (12288,209) (with  m=209  examples)
+    * size of input X is  (12288,209) (with m=209 examples)
 
 ![](res/neural-network-dimensions.png)
 
