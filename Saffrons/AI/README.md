@@ -150,6 +150,12 @@
 * **Stemming** vs. **Lemmatization**:
     * similarity: both generate the root form of the inflected words.
     * difference: stem might not be an actual word whereas, lemma is an actual language word.
+* tf-idf:
+    * [Scikit-learn explained](https://scikit-learn.org/stable/modules/feature_extraction.html#tfidf-term-weighting)
+      tf-idf computation very well with an example
+    * default parameter `smooth_idf=True` adds “1” to the numerator and denominator as if an extra document was seen
+      containing every term in the collection exactly once, which prevents zero
+      division: ![img.png](res/tf-idf-smooth-idf.png)
 
 ### Pre-processing
 
@@ -203,9 +209,9 @@
     * The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) allows only substitution, hence, **it only
       applies to strings of the same length.**
 * **Bag of Words** (Bag of n-grams): **ignores** the relative position information of the words in the document:
-  * tokenization
-  * counting
-  * normalization
+    * tokenization
+    * counting
+    * normalization
 * **Skip-gram** vs **CBOW**  (Continuous Bag of Words) architecture:
     * **Skip-gram** (rare words, slower): works well with small amount of the training data, represents well even rare
       words or phrases.
@@ -233,7 +239,7 @@
     * [architecture](https://huggingface.co/models) hyperparameters
 
   | Name | Parameters | Layers | Hidden | Heads |
-                | :--- | :--- | :--- | :--- | :--- |
+                      | :--- | :--- | :--- | :--- | :--- |
   | gpt2 | 117Mi(124M) | 12 | 768 | 12 |
   | gpt2-medium | 345Mi(355M) | 24 | 1024 | 16 |
   | gpt2-large | 762Mi(774M) | 36 | 1280 | 20 |
