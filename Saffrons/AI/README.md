@@ -239,7 +239,7 @@
     * [architecture](https://huggingface.co/models) hyperparameters
 
   | Name | Parameters | Layers | Hidden | Heads |
-                      | :--- | :--- | :--- | :--- | :--- |
+                              | :--- | :--- | :--- | :--- | :--- |
   | gpt2 | 117Mi(124M) | 12 | 768 | 12 |
   | gpt2-medium | 345Mi(355M) | 24 | 1024 | 16 |
   | gpt2-large | 762Mi(774M) | 36 | 1280 | 20 |
@@ -304,6 +304,22 @@ dropout = 0.5
           ![](res/clustering-cluster-distance-measures.png)
 
 * review [clustering algorithms](https://sites.cs.ucsb.edu/~veronika/MAE_LargeScaleClustering_strnadova.pdf)
+
+### Clustering Metrics
+
+Clustering metrics (supervised or unsupervised) can be found in
+the [scikit-learn package](https://scikit-learn.org/stable/modules/clustering.html).
+
+* Rand Index:
+    * > However, the Rand index does not guarantee that random label assignments will get a value close to zero (esp. if
+      the number of clusters is in the **same order of magnitude** as the number of samples).
+    * The **Rand index** can also be viewed through the prism of binary classification **accuracy** over the pairs of
+      elements
+      in S.
+    * Unreliable metric!
+* Adjusted Rand Index:
+    * The adjusted Rand index is thus ensured to have a value close to 0.0 for random labeling independently of the
+      number of clusters and samples and exactly 1.0 when the clusterings are identical (up to a permutation).
 
 ## 🔵 📈 Regression
 
