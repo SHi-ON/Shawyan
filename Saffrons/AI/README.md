@@ -292,16 +292,18 @@ dropout = 0.5
 
 * comparison of different clustering algorithms in terms of dataset size:
   ![](res/clustering-algorithms.png)
-* K-means vs Hierarchical vs Density-based CLUSTERING:
-    * K-means : pre-specify the number of clusters K. In practice, the **k-means** algorithm is very fast (one of the
-      fastest clustering algorithms available), but it falls in local minima. That’s why it can be useful to restart it
-      several times.
-    * Hierarchical: no requirement for a pre-specified choice of K
-        * Agglomerative or bottom-up
-        * Divisive or top-down
-    * Hierarchical Clustering Linkage methods:
-        * the best –most likely– is the Ward algorithm which mimics all and K-means
-          ![](res/clustering-cluster-distance-measures.png)
+* K-means : pre-specify the number of clusters K. In practice, the **k-means** algorithm is very fast (one of the
+  fastest clustering algorithms available), but it falls in local minima. That’s why it can be useful to restart it
+  several times.
+* Hierarchical: no requirement for a pre-specified choice of K
+    * Agglomerative (bottom-up) or Divisive (top-down)
+    * Linkage methods:
+      * ward: minimizes the variance of the clusters being merged.
+      * average: uses the average of the distances of each observation of the two sets.
+      * complete (maximum): uses the maximum distances between all observations of the two sets.
+      * single (minimum): uses the minimum of the distances between all observations of the two sets.
+      * ✅ the best –most likely– is the Ward algorithm which mimics K-means
+              ![](res/clustering-cluster-distance-measures.png)
 
 * review [clustering algorithms](https://sites.cs.ucsb.edu/~veronika/MAE_LargeScaleClustering_strnadova.pdf)
 
