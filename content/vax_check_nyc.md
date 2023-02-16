@@ -1,8 +1,7 @@
 ---
-title: "Vax Appointments Check Automation in NY"
-date: 2021-04-26T23:54:21-04:00
-draft: false
-author: SHi-ON
+Title: Let The Bot Take a Vax Appointment in NYC
+Date: 2021-04-26 23:54
+Category: Pythonic
 ---
 
 ## What?!

@@ -1,13 +1,12 @@
 ---
-title: "Mimic GitHub PR Diff Locally"
-date: 2022-01-02T21:42:42-04:00
-draft: false
-author: SHi-ON
+Title: Mimic GitHub PR Diff Locally
+Date: 2022-01-02 21:42
+Category: Development
 ---
 
 ## What?!
 The goal is to mimic the GitHub pull requests' file diff in your local repository:
-![Image](../post_images/mimic_github_pr_diff_locally_1.png)
+![Image]({attach}post_images/mimic_github_pr_diff_locally_1.png)
 
 
 ## How?
@@ -20,4 +19,4 @@ $ git diff <FIRTS_BRANCH_COMMIT_SHA> <LAST_BRANCH_COMMIT_SHA> --stat | tail -1
 
 ```
 and you will get:
-![Image](../post_images/mimic_github_pr_diff_locally_2.png)
+![Image]({attach}post_images/mimic_github_pr_diff_locally_2.png)

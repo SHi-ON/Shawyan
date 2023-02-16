@@ -1,8 +1,7 @@
 ---
-title: "Get Up and Running with NVIDIA GPUs on Ubuntu"
-date: 2023-01-10T21:42:42-04:00
-draft: false
-author: SHi-ON
+Title: Get Up and Running with NVIDIA GPUs on Ubuntu
+Date: 2023-01-10 21:42
+Category: Machine Learning
 ---
 
 I have been setting up multiple Python machine learning environments based on NVIDIA GeForce GPUs. Starting with a fresh Ubuntu installation, you will need to go through the installation of multiple NVIDIA packages to get your machine ready to communicate with the GPU(s) properly. The steps here are an overview of the installation process.

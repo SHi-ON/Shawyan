@@ -1,8 +1,7 @@
 ---
-title: "Install TensorFlow and PyTorch Together in a Single Environment"
-date: 2021-08-29T23:39:42-04:00
-draft: false
-author: SHi-ON
+Title: Install TensorFlow and PyTorch Together in a Single Environment
+Date: 2021-08-29 23:39:42
+Category: Machine Learning
 ---
 
 I have been recently dealing with projects requiring both the popular automatic differentiation frameworks together.
