@@ -6,6 +6,6 @@
 
   [[redirects]]
   from = "/resume"
-  to = "/ShayanAmaniResume.pdf"
+  to = "/static/ShayanAmaniResume.pdf"
   status = 301
   force = true # COMMENT: ensure that we always redirect
