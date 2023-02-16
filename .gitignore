@@ -1,15 +1,10 @@
 .DS_store
 
-### Hugo ###
-# Generated files by hugo
-/public/
-/resources/_gen/
-hugo_stats.json
+# Pelican
+output
 
-# Executable may be added to repository
-hugo.exe
-hugo.darwin
-hugo.linux
+# Python
+__pycache__
 
 # WebStorm
 /.idea
