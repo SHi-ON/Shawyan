@@ -1,6 +1,6 @@
 [build]
   publish = "output"
-  command = "pelican"
+  command = "make publish"
 
 [context.production.environment]
 

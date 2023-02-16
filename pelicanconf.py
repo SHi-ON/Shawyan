@@ -8,7 +8,7 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
-THEME = '/Volumes/DevCamp/PyCharmProjects/pelican-themes/blue-penguin-dark'
+THEME = 'theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
