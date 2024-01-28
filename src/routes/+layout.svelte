@@ -13,25 +13,32 @@
       </svelte:fragment>
       <svelte:fragment slot="trail">
         <a
-          class="variant-ghost-surface btn btn-sm"
-          href="https://discord.gg/EXqV7W8MtY"
-          target="_blank"
-          rel="noreferrer">
-          Discord
-        </a>
-        <a
-          class="variant-ghost-surface btn btn-sm"
-          href="https://twitter.com/SkeletonUI"
-          target="_blank"
-          rel="noreferrer">
-          Twitter
-        </a>
-        <a
-          class="variant-ghost-surface btn btn-sm"
-          href="https://github.com/skeletonlabs/skeleton"
+          class="variant-ghost-primary btn"
+          href="https://github.com/SHi-ON"
           target="_blank"
           rel="noreferrer">
           GitHub
+        </a>
+        <a
+          class="variant-ghost-primary btn"
+          href="https://scholar.google.com/citations?user=E_sbK9sAAAAJ&hl=en"
+          target="_blank"
+          rel="noreferrer">
+          Google Scholar
+        </a>
+        <a
+          class="variant-ghost-primary btn"
+          href="https://www.linkedin.com/in/shayanamani/"
+          target="_blank"
+          rel="noreferrer">
+          LinkedIn
+        </a>
+        <a
+          class="variant-ghost-primary btn"
+          href="https://stackoverflow.com/users/3782119/shawyan-azdam"
+          target="_blank"
+          rel="noreferrer">
+          Stack Overflow
         </a>
       </svelte:fragment>
     </AppBar>
