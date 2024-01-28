@@ -10,20 +10,20 @@
       <img class="fill-token" src="/SHi-ON-logo.svg" alt="SHi ON Logo" />
     </figure>
     <!-- / -->
-    <div class="flex justify-center space-x-2">
-      <a
-        class="variant-filled btn"
-        href="https://skeleton.dev/"
-        target="_blank"
-        rel="noreferrer">
-        Launch Documentation
-      </a>
-    </div>
-    <div class="space-y-2">
-      <p>Try editing the following:</p>
-      <p><code class="code">/src/routes/+layout.svelte</code></p>
-      <p><code class="code">/src/routes/+page.svelte</code></p>
-    </div>
+    <!--    <div class="flex justify-center space-x-2">-->
+    <!--      <a-->
+    <!--        class="variant-filled btn"-->
+    <!--        href="https://skeleton.dev/"-->
+    <!--        target="_blank"-->
+    <!--        rel="noreferrer">-->
+    <!--        Launch Documentation-->
+    <!--      </a>-->
+    <!--    </div>-->
+    <!--    <div class="space-y-2">-->
+    <!--      <p>Try editing the following:</p>-->
+    <!--      <p><code class="code">/src/routes/+layout.svelte</code></p>-->
+    <!--      <p><code class="code">/src/routes/+page.svelte</code></p>-->
+    <!--    </div>-->
   </div>
 </div>
 
