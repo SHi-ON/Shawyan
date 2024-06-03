@@ -14,28 +14,28 @@
       <svelte:fragment slot="trail">
         <a
           class="variant-ghost-primary btn"
-          href="https://github.com/SHi-ON"
+          href="https://x.shawyan.com/github"
           target="_blank"
           rel="noreferrer">
           GitHub
         </a>
         <a
           class="variant-ghost-primary btn"
-          href="https://scholar.google.com/citations?user=E_sbK9sAAAAJ&hl=en"
+          href="https://x.shawyan.com/google-scholar"
           target="_blank"
           rel="noreferrer">
           Google Scholar
         </a>
         <a
           class="variant-ghost-primary btn"
-          href="https://www.linkedin.com/in/shayanamani/"
+          href="https://x.shawyan.com/linkedin"
           target="_blank"
           rel="noreferrer">
           LinkedIn
         </a>
         <a
           class="variant-ghost-primary btn"
-          href="https://stackoverflow.com/users/3782119/shawyan-azdam"
+          href="https://x.shawyan.com/stack-overflow"
           target="_blank"
           rel="noreferrer">
           Stack Overflow
