@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      lucide:
-        specifier: ^0.383.0
-        version: 0.383.0
     devDependencies:
       '@skeletonlabs/skeleton':
         specifier: 2.7.1
@@ -993,9 +989,6 @@ packages:
   lru-cache@6.0.0:
     resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
     engines: {node: '>=10'}
-
-  lucide@0.383.0:
-    resolution: {integrity: sha512-9hmwt/UPcfxUh2cVWBV9vOagFsWPFQsGUkp2XBlwFmMX6zoj3TLrs+HknihuSotnHuWB9pvhm+XUB7C5DOINRQ==}
 
   magic-string@0.30.5:
     resolution: {integrity: sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==}
@@ -2484,8 +2477,6 @@ snapshots:
   lru-cache@6.0.0:
     dependencies:
       yallist: 4.0.0
-
-  lucide@0.383.0: {}
 
   magic-string@0.30.5:
     dependencies:
