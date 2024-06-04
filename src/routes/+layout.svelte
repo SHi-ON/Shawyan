@@ -35,6 +35,13 @@
         </a>
         <a
           class="variant-ghost-primary btn"
+          href="https://x.shawyan.com/x"
+          target="_blank"
+          rel="noreferrer">
+          X
+        </a>
+        <a
+          class="variant-ghost-primary btn"
           href="https://x.shawyan.com/stack-overflow"
           target="_blank"
           rel="noreferrer">
