@@ -1,6 +1,7 @@
 <script lang="ts">
   import '../app.postcss';
   import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+  import {Github} from 'lucide'
 </script>
 
 <!-- App Shell -->
@@ -13,39 +14,35 @@
       </svelte:fragment>
       <svelte:fragment slot="trail">
         <a
-          class="variant-ghost-primary btn"
+          class="variant-glass-primary btn"
           href="https://x.shawyan.com/github"
           target="_blank"
           rel="noreferrer">
-          GitHub
+          <img height="28" width="28" alt='GitHub icon' src="https://cdn.simpleicons.org/github/white" />
         </a>
         <a
-          class="variant-ghost-primary btn"
+          class="variant-glass-primary btn"
           href="https://x.shawyan.com/google-scholar"
           target="_blank"
           rel="noreferrer">
-          Google Scholar
+          <img height="28" width="28" alt='Google Scholar icon' src="https://cdn.simpleicons.org/googlescholar/white" />
         </a>
         <a
-          class="variant-ghost-primary btn"
+          class="variant-glass-primary btn"
           href="https://x.shawyan.com/linkedin"
           target="_blank"
           rel="noreferrer">
-          LinkedIn
+          <img height="28" width="28" alt='LinkedIn icon' src="https://cdn.simpleicons.org/linkedin/white" />
+        </a>
+        <a class="variant-glass-primary btn" href="https://x.shawyan.com/x" target="_blank" rel="noreferrer">
+          <img height="28" width="28" alt='X icon' src="https://cdn.simpleicons.org/x/white" />
         </a>
         <a
-          class="variant-ghost-primary btn"
-          href="https://x.shawyan.com/x"
-          target="_blank"
-          rel="noreferrer">
-          X
-        </a>
-        <a
-          class="variant-ghost-primary btn"
+          class="variant-glass-primary btn"
           href="https://x.shawyan.com/stack-overflow"
           target="_blank"
           rel="noreferrer">
-          Stack Overflow
+          <img height="28" width="28" alt='Stack Overflow icon' src="https://cdn.simpleicons.org/stackoverflow/white" />
         </a>
       </svelte:fragment>
     </AppBar>
