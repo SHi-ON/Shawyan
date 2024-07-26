@@ -2,8 +2,9 @@
 
 <div class="container mx-auto flex h-full items-center justify-center">
   <div class="flex flex-col items-center space-y-10 text-center">
-    <h1 class="h1">Shawyan Azdam</h1>
-    <h6 class="h6">aka Shayan Amani</h6>
+    <h1 class="h1">Shawn Azdam</h1>
+    <h3 class="h3">a.k.a. Shawyan</h3>
+    <h3 class="h5">a.k.a. SHi-ON</h3>
     <!-- Animated Logo -->
     <figure>
       <section class="img-bg" />
